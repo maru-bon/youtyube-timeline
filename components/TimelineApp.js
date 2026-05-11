@@ -62,8 +62,8 @@ export function TimelineApp() {
       h(
         "div",
         { className: "timeline-nav__inner" },
-        h("a", { className: "timeline-nav__link", href: "/index.html" }, "ランキング"),
-        h("a", { className: "timeline-nav__link is-active", href: "/timeline/index.html" }, "タイムライン")
+        h("a", { className: "timeline-nav__link", href: "/" }, "ランキング"),
+        h("a", { className: "timeline-nav__link is-active", href: "/timeline/" }, "タイムライン")
       )
     ),
     h(
